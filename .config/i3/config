@@ -34,7 +34,7 @@ exec --no-startup-id picom -b
 
 #exec --no-startup-id setxkbmap -layout "us,ir" -option "grp:win_space_toggle"
 
-exec --no-startup-id feh --bg-scale "/usr/share/backgrounds/user/The Good Shepherd.jpg"
+exec --no-startup-id feh --bg-scale "/usr/share/backgrounds/user/background.jpg"
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
