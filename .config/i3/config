@@ -69,6 +69,7 @@ bindsym Print exec flameshot gui
 # bindsym Print exec maim -s -u | tee "$(xdg-user-dir PICTURES)/Screen/$(date +%s).png" | xclip -selection clipboard -t image/png -i
 bindsym Shift+Print exec maim -i $(xdotool getactivewindow) | tee "$(xdg-user-dir PICTURES)/Screen/$(date +%s).png" | xclip -selection clipboard -t image/png -i
 
+bindsym $mod+Ctrl+m exec pavucontrol
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
