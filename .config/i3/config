@@ -95,7 +95,7 @@ bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -fn "FiraCode Nerd Font
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec i3-sensible-terminal -e ranger
+bindsym $mod+F3 exec i3-sensible-terminal -e lf
 bindsym $mod+Shift+F3 exec pcmanfm
 
 # change focus
