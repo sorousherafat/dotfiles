@@ -11,15 +11,15 @@ CVS
 _darcs
 \.hg
 
-\.git
-\.gitignore
-\.gitmodules
+^/\.git$
+^/\.gitignore$
+^/\.gitmodules$
 
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
 
-^/README.*
-^/LICENSE.*
-^/COPYING
+README.md
+LICENSE
 
 .config/tmux/plugins/
+.config/btop/btop.log
