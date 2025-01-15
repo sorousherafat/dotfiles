@@ -16,8 +16,7 @@ shopt -s autocd
 [ -f /usr/share/doc/pkgfile/command-not-found.bash ] && . /usr/share/doc/pkgfile/command-not-found.bash
 
 export PATH="$PATH:~/.local/bin"
-
-export EDITOR='vim'
+export EDITOR='nvim'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
