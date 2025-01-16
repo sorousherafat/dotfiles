@@ -1,6 +1,6 @@
-local filetype = vim.filetype.add
+local ft = vim.filetype.add
 
-filetype {
+ft {
     extension = {
         axaml = "xml",
         v = "verilog",
