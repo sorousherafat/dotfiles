@@ -16,35 +16,6 @@ return {
     },
 
     {
-        "williamboman/mason.nvim",
-        opts = {
-            ensure_installed = {
-                "lua-language-server",
-                "stylua",
-                "html-lsp",
-                "css-lsp",
-                "prettier",
-                "typescript-language-server",
-                "eslint-lsp",
-                "tailwindcss-language-server",
-                "bash-language-server",
-                "shellcheck",
-                "shfmt",
-                "clangd",
-                "clang-format",
-                "lemminx",
-                "pyright",
-                "ruff",
-                "black",
-                "gopls",
-                "goimports",
-                "golines",
-                "verible",
-            },
-        },
-    },
-
-    {
         "nvim-treesitter/nvim-treesitter",
         opts = {
             ensure_installed = {
