@@ -1,0 +1,4 @@
+$PROMPT = '{YELLOW}{env_name}{RESET}{BOLD_GREEN}{hostname}{BOLD_BLUE} {cwd_base}{branch_color}{curr_branch: {}}{RESET} {RED}{last_return_code_if_nonzero:[{BOLD_INTENSE_RED}{}{RED}] }{RESET}{BOLD_BLUE}{prompt_end}{RESET} '
+$XONSH_COLOR_STYLE = 'default'
+source-bash "echo loading xonsh foreign shell"
+xontrib load coreutils
