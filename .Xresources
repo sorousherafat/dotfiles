@@ -29,9 +29,9 @@
 *.color7:       #d0d0d0
 *.color15:      #ffffff
 
-URxvt.font:           xft:FiraCode Nerd Font:size=12:style=Regular
-URxvt.boldFont:       xft:FiraCode Nerd Font:size=12:style=Bold
-URxvt.italicFont:     xft:FiraCode Nerd Font:size=12:style=Italic
-URxvt.boldItalicFont: xft:FiraCode Nerd Font:size=12:style=Bold Italic
+URxvt.font:           xft:FiraCode Nerd Font:size=10:style=Regular
+URxvt.boldFont:       xft:FiraCode Nerd Font:size=10:style=Bold
+URxvt.italicFont:     xft:FiraCode Nerd Font:size=10:style=Italic
+URxvt.boldItalicFont: xft:FiraCode Nerd Font:size=10:style=Bold Italic
 
 URxvt.scrollBar:      false
