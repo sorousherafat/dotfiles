@@ -1,4 +1,5 @@
 set selection-clipboard clipboard
+set font "Cantarell 11"
 
 map l navigate next
 map h navigate previous
