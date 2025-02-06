@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    -- event = 'BufWritePre',
     opts = require "configs.conform",
   },
 
@@ -14,9 +14,9 @@ return {
 
   {
     "mfussenegger/nvim-lint",
-    config = function ()
+    config = function()
       require "configs.lint"
-    end
+    end,
   },
 
   {
@@ -30,5 +30,13 @@ return {
         "css",
       },
     },
+  },
+
+  {
+    "lervag/vimtex",
+    lazy = false,
+    init = function()
+      require "configs.tex"
+    end,
   },
 }

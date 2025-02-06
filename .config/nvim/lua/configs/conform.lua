@@ -12,6 +12,7 @@ local options = {
     python = { "black" },
     go = { "gofmt", "goimports", "golines" },
     verilog = { "verible" },
+    tex = { "latexindent" },
   },
 
   -- format_on_save = {
