@@ -15,7 +15,7 @@ shopt -s autocd
 
 [ -f /usr/share/doc/pkgfile/command-not-found.bash ] && . /usr/share/doc/pkgfile/command-not-found.bash
 
-export PATH="$PATH:~/.local/bin"
+export PATH="$PATH:~/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux"
 export EDITOR='nvim'
 
 export NVM_DIR="$HOME/.nvm"
