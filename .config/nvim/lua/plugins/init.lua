@@ -33,6 +33,15 @@ return {
   },
 
   {
+    "kylechui/nvim-surround",
+    version = "*",
+    event = "VeryLazy",
+    config = function()
+      require "configs.surround"
+    end,
+  },
+
+  {
     "lervag/vimtex",
     lazy = false,
     init = function()
