@@ -48,4 +48,10 @@ return {
       require "configs.tex"
     end,
   },
+
+  {
+    "ellisonleao/glow.nvim",
+    config = true,
+    cmd = "Glow",
+  },
 }
