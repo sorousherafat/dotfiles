@@ -5,6 +5,7 @@ local options = {
     html = { "prettier" },
     javascript = { "prettier" },
     typescript = { "prettier" },
+    json = { "prettier" },
     bash = { "shfmt" },
     sh = { "shfmt" },
     c = { "clang-format" },
