@@ -42,6 +42,14 @@ return {
   },
 
   {
+    "ggandor/leap.nvim",
+    lazy = false,
+    config = function()
+      require "configs.leap"
+    end,
+  },
+
+  {
     "lervag/vimtex",
     lazy = false,
     init = function()
