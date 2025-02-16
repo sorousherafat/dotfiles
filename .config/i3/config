@@ -83,6 +83,9 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec $term
 
+# start terminal in drop-down mode
+bindsym $mod+Shift+Return exec --no-startup-id xfce4-terminal --drop-down
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
