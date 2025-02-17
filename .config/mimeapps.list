@@ -1,0 +1,30 @@
+[Default Applications]
+x-scheme-handler/tonsite=org.telegram.desktop.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-VOA9S2.desktop
+message/rfc822=userapp-Thunderbird-VOA9S2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-VOA9S2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-44TQT2.desktop
+text/calendar=userapp-Thunderbird-44TQT2.desktop
+application/x-extension-ics=userapp-Thunderbird-44TQT2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-44TQT2.desktop
+text/plain=nvim.desktop
+application/pdf=org.pwmt.zathura.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+
+[Added Associations]
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-VOA9S2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-VOA9S2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-44TQT2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-44TQT2.desktop;
+text/plain=nvim.desktop;
+video/mp4=mpv.desktop;org.xfce.Parole.desktop;
