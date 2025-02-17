@@ -55,7 +55,7 @@ exec --no-startup-id blueman-applet
 
 exec --no-startup-id dunst
 
-exec --no-startup-id redshift
+exec --no-startup-id xfce4-power-manager
 
 exec --no-startup-id greenclip daemon
 bindsym $mod+Shift+v exec greenclip print | grep . | dmenu -i -l 10 -p clipboard -fn "Cantarell-10" | xargs -r -d'\n' -I '{}' greenclip print '{}'
