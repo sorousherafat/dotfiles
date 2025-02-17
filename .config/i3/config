@@ -100,7 +100,7 @@ bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -fn "Cantarell-10" -p p
 
 bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec $term -e lf
-bindsym $mod+Shift+F3 exec pcmanfm
+bindsym $mod+Shift+F3 exec thunar
 
 # change focus
 bindsym $mod+$left focus left
