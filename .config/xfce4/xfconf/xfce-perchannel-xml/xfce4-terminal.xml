@@ -3,7 +3,7 @@
 <channel name="xfce4-terminal" version="1.0">
   <property name="dropdown-width" type="uint" value="50"/>
   <property name="dropdown-show-borders" type="bool" value="true"/>
-  <property name="dropdown-always-show-tabs" type="bool" value="false"/>
+  <property name="dropdown-always-show-tabs" type="bool" value="true"/>
   <property name="dropdown-position-vertical" type="uint" value="50"/>
   <property name="font-name" type="string" value="FiraCode Nerd Font Mono 11"/>
   <property name="misc-menubar-default" type="bool" value="false"/>
