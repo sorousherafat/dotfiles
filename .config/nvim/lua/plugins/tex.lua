@@ -18,3 +18,5 @@ g.vimtex_compiler_latexmk_engines = {
   ["context (luatex)"] = "-pdf -pdflatex=context",
   ["context (xetex)"] = "-pdf -pdflatex=''texexec --xtx''",
 }
+
+return {}
