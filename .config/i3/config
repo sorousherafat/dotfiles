@@ -60,7 +60,7 @@ exec --no-startup-id redshift
 exec --no-startup-id xfce4-power-manager
 
 exec --no-startup-id greenclip daemon
-bindsym $mod+Shift+v exec greenclip print | grep . | dmenu -i -l 10 -p clipboard -fn "FiraCode Nerd Font-10" | xargs -r -d'\n' -I '{}' greenclip print '{}'
+bindsym $mod+Shift+v exec greenclip print | grep . | dmenu -i -l 10 -p clipboard -fn "Cantarell-10" | xargs -r -d'\n' -I '{}' greenclip print '{}'
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
@@ -92,8 +92,8 @@ bindsym $mod+Shift+Return exec --no-startup-id xfce4-terminal --drop-down
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -fn "FiraCode Nerd Font-10"
-bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -fn "FiraCode Nerd Font-10" -p power | xargs powermenu -c | xargs -I {} sh -c "{}"
+bindsym $mod+d exec --no-startup-id dmenu_run -fn "Cantarell-10"
+bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -fn "Cantarell-10" -p power | xargs powermenu -c | xargs -I {} sh -c "{}"
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
