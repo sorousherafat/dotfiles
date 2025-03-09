@@ -19,4 +19,7 @@ g.vimtex_compiler_latexmk_engines = {
   ["context (xetex)"] = "-pdf -pdflatex=''texexec --xtx''",
 }
 
-return {}
+return {
+  "lervag/vimtex",
+  vscode = true,
+}
