@@ -85,9 +85,6 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec $term
 
-# start terminal in drop-down mode
-bindsym $mod+Shift+Return exec --no-startup-id xfce4-terminal --drop-down
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -100,7 +97,10 @@ bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -fn "Cantarell-10" -p p
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+F2 exec firefox
+bindsym $mod+F1 exec firefox
+bindsym $mod+Shift+F1 exec chromium
+bindsym $mod+F2 exec $term
+bindsym $mod+Shift+F2 exec xfce4-terminal --drop-down
 bindsym $mod+F3 exec $term -e lf
 bindsym $mod+Shift+F3 exec thunar
 
