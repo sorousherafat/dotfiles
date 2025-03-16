@@ -26,5 +26,5 @@ x-scheme-handler/mailto=userapp-Thunderbird-VOA9S2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-VOA9S2.desktop;
 x-scheme-handler/webcal=userapp-Thunderbird-44TQT2.desktop;
 x-scheme-handler/webcals=userapp-Thunderbird-44TQT2.desktop;
-text/plain=nvim.desktop;
+text/plain=org.xfce.mousepad.desktop;nvim.desktop;
 video/mp4=mpv.desktop;org.xfce.Parole.desktop;
