@@ -7,3 +7,4 @@ local o = vim.opt
 g.autoformat = false
 
 o.termbidi = true
+o.clipboard = ""
