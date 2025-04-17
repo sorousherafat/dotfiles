@@ -91,8 +91,10 @@ bindsym $mod+Shift+Return exec $ddterm
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -fn "Cantarell-10"
-bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -fn "Cantarell-10" -p power | xargs powermenu -c | xargs -I {} sh -c "{}"
+bindsym $mod+d exec --no-startup-id dmenu_run -fn "FiraCode Nerd Font-10"
+bindsym $mod+p exec --no-startup-id powermenu -p | dmenu -i -fn "Cantarell-10" -p power | xargs powermenu -c | xargs -I {} sh -c "{}"
+bindsym $mod+q exec --no-startup-id sel=$(ps -eo comm= | sort | uniq | dmenu -i -p pkill -fn "FiraCode Nerd Font-10") && [ -n "$sel" ] && pkill "$sel"
+
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
