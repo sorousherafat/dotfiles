@@ -1,8 +1,13 @@
 return {
   {
+    "kylechui/nvim-surround",
+    version = "*",
+    event = "VeryLazy",
+    opts = {},
+  },
+
+  {
     "echasnovski/mini.surround",
-    opts = {
-      n_lines = 200
-    }
+    disabled = true,
   },
 }
