@@ -8,7 +8,6 @@ return {
         component_separators = "",
       },
       sections = {
-        lualine_x = {  },
         lualine_y = { "progress" },
         lualine_z = { "location" },
       },
