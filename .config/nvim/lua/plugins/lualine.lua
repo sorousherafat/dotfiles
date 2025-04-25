@@ -2,6 +2,7 @@ return {
   {
     "nvim-lualine/lualine.nvim",
     opts = {
+      theme = "base16",
       options = {
         section_separators = "",
         component_separators = "",

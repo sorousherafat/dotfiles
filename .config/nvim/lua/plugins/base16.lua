@@ -1,12 +1,12 @@
 return {
   {
-    "rebelot/kanagawa.nvim",
+    "RRethy/base16-nvim",
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-dragon",
+      colorscheme = "base16-onedark-dark",
     },
   },
 }
