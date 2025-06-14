@@ -5,9 +5,4 @@ return {
     event = "VeryLazy",
     opts = {},
   },
-
-  {
-    "echasnovski/mini.surround",
-    disabled = true,
-  },
 }
